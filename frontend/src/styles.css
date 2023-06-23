@@ -1,0 +1,77 @@
+.App {
+    height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.App .addHome {
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+}
+.App h1 {
+    margin-bottom: 15px;
+    color: white;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.App .wards {
+    display: flex;
+    margin-bottom: 45px;
+}
+.App .wards .ward {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/*.App .wards .ward button {
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.App .home button {
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    margin: 5px;
+}*/
+.App .wards .ward .delete {
+    border: 1px solid #f5bfbf;
+    color: #f26464;
+}
+.App .wards .ward .update {
+    border: 1px solid #ccccf3;
+    color: #8b8bea;
+}
+.App .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.App .form input {
+    width: 310px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+.App .form textarea {
+    padding: 10px;
+}
+/*.App .form button {
+    border: none;
+    padding: 10px;
+    background-color: white;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}*/
+
